@@ -8,11 +8,11 @@
 
 **Thay đổi so với notebook nguồn:**
 
-> Báo cáo chỉ sử dụng các file JSON/PNG và thông tin được cung cấp. File `classification_predictions.json` không có trong các tệp tải lên; thông tin hạng 1 của `traffic` được lấy theo record người dùng đã cung cấp trước đó. Output so sánh ngưỡng `0.20 / 0.35 / 0.60` cũng chưa được tải lên, vì vậy không tự suy đoán số prediction ở ngưỡng `0.20`.
+> Báo cáo chỉ sử dụng các file JSON/PNG trong `report/day1_lab_outputs/`. Record hạng 1 của `traffic` ở mục 1 đã được đối chiếu với `classification_predictions.json` (khớp `class_id` 468, `cab`, score `0.510915`). Output so sánh ngưỡng `0.20 / 0.35 / 0.60` không được lưu trong JSON nên báo cáo không tự suy đoán số prediction ở ngưỡng `0.20`.
 
 ## 1. Phân loại ảnh
 
-**Nguồn:** `visuals/classification_top5.png` và record Classification `traffic` đã cung cấp.
+**Nguồn:** `classification_predictions.json` và `visuals/classification_top5.png` (sample `traffic`).
 
 1. Record hạng 1:
    - `class_id` = 468
@@ -104,7 +104,7 @@ Chuỗi production: `ảnh thô → guideline → ground truth → huấn luyệ
 
 ## Ghi chú về dữ liệu còn thiếu
 
-- Chưa có file `classification_predictions.json` trong các tệp đính kèm; record `traffic` ở mục 1 dùng thông tin đã được cung cấp trong hội thoại.
+- Đã bổ sung `classification_predictions.json` (15 record top-5 cho 3 sample); record `traffic` hạng 1 trong báo cáo khớp với JSON.
 - Chưa có output notebook so sánh số prediction ở ngưỡng `0.20 / 0.35 / 0.60`. Mục 2 chỉ xác nhận được `11` prediction ở ngưỡng `0.35` và đếm được `6` record có score từ `0.60` trở lên trong JSON đó. Không thể suy ra số prediction ở ngưỡng `0.20` từ JSON đã lọc ở `0.35`.
 - Chưa có thông tin runtime CPU/GPU, phiên bản Python/PyTorch và việc thay đổi notebook nguồn; cần bổ sung sau khi kiểm tra notebook Colab.
 - `IMAGE_ATTRIBUTION.md` ghi nguồn ảnh COCO 2017 validation và giấy phép CC BY 2.0 cho các ảnh `traffic`, `kitchen`, `dining`.
