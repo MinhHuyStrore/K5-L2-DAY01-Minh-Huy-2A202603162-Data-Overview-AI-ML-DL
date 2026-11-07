@@ -98,9 +98,9 @@ Chuỗi production: `ảnh thô → guideline → ground truth → huấn luyệ
 - [x] `report/day1_lab_outputs/visuals/classification_top5.png` có trong repo.
 - [x] `report/day1_lab_outputs/visuals/detection_predictions.png` có trong repo.
 - [x] `report/day1_lab_outputs/visuals/segmentation_prediction.png` có trong repo.
-- [ ] Ô validation cuối notebook báo `PASS`.
-- [ ] Không có họ tên, MSSV, email, số điện thoại hoặc dữ liệu cá nhân khác trong báo cáo/output.
-- [ ] Đã nộp link repository trên LMS.
+- [x] Ô validation cuối notebook báo `PASS`.
+- [x] Không có họ tên, MSSV, email, số điện thoại hoặc dữ liệu cá nhân khác trong báo cáo/output.
+- [x] Đã nộp link repository trên LMS.
 
 ## Ghi chú về dữ liệu còn thiếu
 
