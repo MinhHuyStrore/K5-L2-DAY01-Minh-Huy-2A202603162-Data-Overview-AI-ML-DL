@@ -90,14 +90,14 @@ Chuỗi production: `ảnh thô → guideline → ground truth → huấn luyệ
 
 ## 6. Checklist trước khi nộp link repo
 
-- [ ] `report/REPORT.md` đã điền và kiểm tra.
-- [ ] `report/day1_lab_outputs/classification_predictions.json` có trong repo.
-- [ ] `report/day1_lab_outputs/detection_predictions.json` có trong repo.
-- [ ] `report/day1_lab_outputs/segmentation_predictions.json` có trong repo.
-- [ ] `report/day1_lab_outputs/IMAGE_ATTRIBUTION.md` có trong repo.
-- [ ] `report/day1_lab_outputs/visuals/classification_top5.png` có trong repo.
-- [ ] `report/day1_lab_outputs/visuals/detection_predictions.png` có trong repo.
-- [ ] `report/day1_lab_outputs/visuals/segmentation_prediction.png` có trong repo.
+- [x] `report/REPORT.md` đã điền và kiểm tra.
+- [x] `report/day1_lab_outputs/classification_predictions.json` có trong repo.
+- [x] `report/day1_lab_outputs/detection_predictions.json` có trong repo.
+- [x] `report/day1_lab_outputs/segmentation_predictions.json` có trong repo.
+- [x] `report/day1_lab_outputs/IMAGE_ATTRIBUTION.md` có trong repo.
+- [x] `report/day1_lab_outputs/visuals/classification_top5.png` có trong repo.
+- [x] `report/day1_lab_outputs/visuals/detection_predictions.png` có trong repo.
+- [x] `report/day1_lab_outputs/visuals/segmentation_prediction.png` có trong repo.
 - [ ] Ô validation cuối notebook báo `PASS`.
 - [ ] Không có họ tên, MSSV, email, số điện thoại hoặc dữ liệu cá nhân khác trong báo cáo/output.
 - [ ] Đã nộp link repository trên LMS.
